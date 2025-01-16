@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
     cors({
-        origin: "http://localhost:3000",
+        origin: "https://ed-tech-full-stack-krishna.vercel.app/",
         credentials: true,
     })
 );
@@ -49,7 +49,7 @@ app.use("/api/v1/reach", contactUsRoute);
 app.get("/", (req, res) => {
     return res.json({
         success: true,
-        message: "Your server is up and running....",
+        message: "Your server is up and running....Cors Updated",
     });
 });
 
