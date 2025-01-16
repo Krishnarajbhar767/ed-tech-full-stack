@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
     cors({
-        origin: "https://ed-tech-full-stack-krishna.vercel.app/",
+        origin: "https://ed-tech-full-stack-krishna.vercel.app",
         credentials: true,
     })
 );
